@@ -2,16 +2,12 @@
 
 This file contains ready-to-use Git commands for pushing UFetch to GitHub.
 
-## 📝 Before You Start
+## 📝 Package Information
 
-1. **Update package.json**:
-   - Open `Assets/UFetch/package.json`
-   - Change `"com.yourname.ufetch"` to your actual package name
-   - Update `"name"` and `"url"` in the author section
-
-2. **Update README.md**:
-   - Replace `yourusername` with your GitHub username in all URLs
-   - Update any personal information
+All package information has been configured:
+- Package name: `com.herbou.ufetch`
+- Author: Hamza HERBOU
+- GitHub: https://github.com/herbou
 
 ## 🚀 Initial Setup (First Time Only)
 
@@ -39,11 +35,11 @@ git commit -m "Initial commit: UFetch Unity Package"
 
 ## 🔗 Connect to GitHub
 
-After creating the repository, run these commands (replace `yourusername` with your actual GitHub username):
+After creating the repository, run these commands:
 
 ```bash
 # Add GitHub as remote
-git remote add origin https://github.com/yourusername/UFetch.git
+git remote add origin https://github.com/herbou/UFetch.git
 
 # Rename branch to main (if needed)
 git branch -M main
@@ -93,13 +89,13 @@ git push origin v1.0.1
 After pushing to GitHub, share this URL with users:
 
 ```
-https://github.com/yourusername/UFetch.git?path=/Assets/UFetch
+https://github.com/herbou/UFetch.git?path=/Assets/UFetch
 ```
 
 Or for a specific version:
 
 ```
-https://github.com/yourusername/UFetch.git?path=/Assets/UFetch#v1.0.0
+https://github.com/herbou/UFetch.git?path=/Assets/UFetch#v1.0.0
 ```
 
 ## 🔍 Verify Your Setup
@@ -126,7 +122,7 @@ git tag -l
 ```bash
 # Remove and re-add origin
 git remote remove origin
-git remote add origin https://github.com/yourusername/UFetch.git
+git remote add origin https://github.com/herbou/UFetch.git
 ```
 
 ### "Permission denied" or authentication issues
@@ -148,7 +144,7 @@ git push
 
 ## 📋 Complete Command Sequence (Copy-Paste)
 
-Replace `yourusername` with your GitHub username, then copy and paste:
+Ready-to-use commands for your repository:
 
 ```bash
 # Initialize (if not already done)
@@ -156,8 +152,8 @@ git init
 git add .
 git commit -m "Initial commit: UFetch Unity Package"
 
-# Connect to GitHub (replace yourusername!)
-git remote add origin https://github.com/yourusername/UFetch.git
+# Connect to GitHub
+git remote add origin https://github.com/herbou/UFetch.git
 git branch -M main
 git push -u origin main
 
@@ -175,7 +171,7 @@ After pushing, verify:
 - [ ] Repository is visible on GitHub
 - [ ] All files are uploaded (check Assets/UFetch/ folder)
 - [ ] Release tag exists (v1.0.0)
-- [ ] Installation URL works: `https://github.com/yourusername/UFetch.git?path=/Assets/UFetch`
+- [ ] Installation URL works: `https://github.com/herbou/UFetch.git?path=/Assets/UFetch`
 - [ ] Test installation in a new Unity project
 
 ## 🧪 Test Installation

@@ -34,34 +34,26 @@ git commit -m "Initial commit: UFetch Unity Package"
 After creating the repository, GitHub will show you commands. Run these in your terminal:
 
 ```bash
-git remote add origin https://github.com/yourusername/UFetch.git
+git remote add origin https://github.com/herbou/UFetch.git
 git branch -M main
 git push -u origin main
 ```
 
-Replace `yourusername` with your actual GitHub username.
+## ⚙️ Step 4: Package Configuration
 
-## ⚙️ Step 4: Update package.json
+The package.json has already been configured:
 
-Before pushing, update the `package.json` file in `Assets/UFetch/package.json`:
+```json
+{
+  "name": "com.herbou.ufetch",
+  "author": {
+    "name": "Hamza HERBOU",
+    "url": "https://github.com/herbou"
+  }
+}
+```
 
-1. Change `"name": "com.yourname.ufetch"` to use your actual name or company:
-   - Example: `"com.johnsmith.ufetch"` or `"com.mystudio.ufetch"`
-
-2. Update the author information:
-   ```json
-   "author": {
-     "name": "Your Actual Name",
-     "url": "https://github.com/yourusername"
-   }
-   ```
-
-3. Commit and push the changes:
-   ```bash
-   git add Assets/UFetch/package.json
-   git commit -m "Update package.json with correct author info"
-   git push
-   ```
+No additional changes needed!
 
 ## 📥 Step 5: Install in Other Unity Projects
 
@@ -74,7 +66,7 @@ Now you can install UFetch in any Unity project using one of these methods:
 3. Select **Add package from git URL**
 4. Enter:
    ```
-   https://github.com/yourusername/UFetch.git?path=/Assets/UFetch
+   https://github.com/herbou/UFetch.git?path=/Assets/UFetch
    ```
 5. Click **Add**
 
@@ -83,7 +75,7 @@ Now you can install UFetch in any Unity project using one of these methods:
 1. Open `Packages/manifest.json` in your Unity project
 2. Add this line to the `"dependencies"` section:
    ```json
-   "com.yourname.ufetch": "https://github.com/yourusername/UFetch.git?path=/Assets/UFetch"
+   "com.herbou.ufetch": "https://github.com/herbou/UFetch.git?path=/Assets/UFetch"
    ```
 3. Save the file and return to Unity (it will auto-refresh)
 
@@ -99,7 +91,7 @@ To install a specific version, you can use Git tags:
 
 2. Then install using the tag:
    ```
-   https://github.com/yourusername/UFetch.git?path=/Assets/UFetch#v1.0.0
+   https://github.com/herbou/UFetch.git?path=/Assets/UFetch#v1.0.0
    ```
 
 ## 🏷️ Step 6: Create Releases (Recommended)
@@ -203,7 +195,7 @@ Your UFetch package is now available for installation via Unity Package Manager!
 
 Share your Git URL with others:
 ```
-https://github.com/yourusername/UFetch.git?path=/Assets/UFetch
+https://github.com/herbou/UFetch.git?path=/Assets/UFetch
 ```
 
 Or add installation instructions to your repository's README.

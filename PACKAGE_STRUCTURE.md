@@ -56,7 +56,7 @@ Sample code that users can import via Package Manager:
 When installing from GitHub, users will use:
 
 ```
-https://github.com/yourusername/UFetch.git?path=/Assets/UFetch
+https://github.com/herbou/UFetch.git?path=/Assets/UFetch
 ```
 
 The `?path=/Assets/UFetch` parameter tells Unity to treat only the `Assets/UFetch` folder as the package root, not the entire repository.
@@ -186,8 +186,8 @@ cat Assets/UFetch/package.json | python -m json.tool
 git tag v1.0.0
 git push origin v1.0.0
 
-# Test installation URL (replace with your username)
-echo "https://github.com/yourusername/UFetch.git?path=/Assets/UFetch"
+# Installation URL
+echo "https://github.com/herbou/UFetch.git?path=/Assets/UFetch"
 ```
 
 ## 📚 References

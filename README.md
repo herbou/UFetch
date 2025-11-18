@@ -18,7 +18,7 @@ A clean, modern, JavaScript-style fetch wrapper for Unity using async/await and 
 
 1. Open Unity Package Manager (Window → Package Manager)
 2. Click the **+** button → **Add package from git URL**
-3. Enter: `https://github.com/yourusername/UFetch.git?path=/Assets/UFetch`
+3. Enter: `https://github.com/herbou/UFetch.git?path=/Assets/UFetch`
 4. Click **Add**
 
 ### Via manifest.json
@@ -28,12 +28,10 @@ Add this to your `Packages/manifest.json`:
 ```json
 {
   "dependencies": {
-    "com.yourname.ufetch": "https://github.com/yourusername/UFetch.git?path=/Assets/UFetch"
+    "com.herbou.ufetch": "https://github.com/herbou/UFetch.git?path=/Assets/UFetch"
   }
 }
 ```
-
-**Note**: Replace `yourusername` and `yourname` with your actual GitHub username and package name.
 
 ## 🚀 Quick Start
 
@@ -196,8 +194,8 @@ Contributions, issues, and feature requests are welcome!
 ## 📞 Support
 
 - 📖 [Full Documentation](Assets/UFetch/UFetch_Documentation.md)
-- 🐛 [Issue Tracker](https://github.com/yourusername/UFetch/issues)
-- 💬 [Discussions](https://github.com/yourusername/UFetch/discussions)
+- 🐛 [Issue Tracker](https://github.com/herbou/UFetch/issues)
+- 💬 [Discussions](https://github.com/herbou/UFetch/discussions)
 
 ## ⭐ Show Your Support
 

@@ -32,7 +32,7 @@ Add this to your `Packages/manifest.json`:
 ```json
 {
   "dependencies": {
-    "com.yourname.ufetch": "https://github.com/herbou/UFetch.git?path=/Assets/UFetch"
+    "com.herbou.ufetch": "https://github.com/herbou/UFetch.git?path=/Assets/UFetch"
   }
 }
 ```
