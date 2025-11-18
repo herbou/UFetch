@@ -79,3 +79,9 @@ crashlytics-build.properties
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Helper documentation (local only)
+GIT_COMMANDS.md
+SETUP_GITHUB.md
+PACKAGE_STRUCTURE.md
+CLAUDE.md
