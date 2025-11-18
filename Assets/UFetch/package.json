@@ -1,0 +1,32 @@
+{
+  "name": "com.herbou.ufetch",
+  "version": "1.0.0",
+  "displayName": "UFetch",
+  "description": "A modern, JavaScript-style fetch wrapper for Unity using async/await and UnityWebRequest. Supports GET, POST, PUT, DELETE, typed requests, multipart uploads, and progress tracking.",
+  "unity": "2021.3",
+  "keywords": [
+    "http",
+    "fetch",
+    "networking",
+    "web",
+    "api",
+    "rest",
+    "async",
+    "await",
+    "json"
+  ],
+  "author": {
+    "name": "Hamza HERBOU",
+    "url": "https://github.com/herbou"
+  },
+  "dependencies": {
+    "jillejr.newtonsoft.json-for-unity": "https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#upm"
+  },
+  "samples": [
+    {
+      "displayName": "UFetch Demo",
+      "description": "Example usage of UFetch with API calls and image downloads",
+      "path": "Samples~/Demo"
+    }
+  ]
+}
