@@ -59,6 +59,20 @@ No additional changes needed!
 
 Now you can install UFetch in any Unity project using one of these methods:
 
+**Important:** UFetch requires Newtonsoft.Json. Install it first before installing UFetch.
+
+### Prerequisites: Install Newtonsoft.Json
+
+Choose one of these options:
+
+**Option A: Unity's Official Package (Recommended)**
+1. Package Manager → **+** → **Add package by name**
+2. Enter: `com.unity.nuget.newtonsoft-json`
+
+**Option B: jillejr's Package**
+1. Package Manager → **+** → **Add package from git URL**
+2. Enter: `https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#upm`
+
 ### Method 1: Via Package Manager UI
 
 1. Open Unity Package Manager (Window → Package Manager)
@@ -73,8 +87,9 @@ Now you can install UFetch in any Unity project using one of these methods:
 ### Method 2: Via manifest.json
 
 1. Open `Packages/manifest.json` in your Unity project
-2. Add this line to the `"dependencies"` section:
+2. Add both packages to the `"dependencies"` section:
    ```json
+   "com.unity.nuget.newtonsoft-json": "3.2.1",
    "com.herbou.ufetch": "https://github.com/herbou/UFetch.git?path=/Assets/UFetch"
    ```
 3. Save the file and return to Unity (it will auto-refresh)

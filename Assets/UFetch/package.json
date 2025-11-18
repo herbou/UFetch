@@ -19,9 +19,6 @@
     "name": "Hamza HERBOU",
     "url": "https://github.com/herbou"
   },
-  "dependencies": {
-    "jillejr.newtonsoft.json-for-unity": "https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#upm"
-  },
   "samples": [
     {
       "displayName": "UFetch Demo",

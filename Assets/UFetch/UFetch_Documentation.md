@@ -19,15 +19,28 @@ A clean, modern, JavaScript-style fetch wrapper for Unity using async/await and 
 
 ## 🚀 Installation
 
-### 1. Install Newtonsoft.Json using Unity Package Manager:
+### 1. Install Newtonsoft.Json (Required)
 
-```
-https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git
-```
+Choose one of these options:
 
-### 2. Add `UFetch.cs` into your project.
+**Option A: Unity's Official Package (Recommended)**
+1. Open Package Manager (Window → Package Manager)
+2. Click **+** → **Add package by name**
+3. Enter: `com.unity.nuget.newtonsoft-json`
+4. Click **Add**
 
-Done.
+**Option B: jillejr's Package**
+1. Package Manager → **+** → **Add package from git URL**
+2. Enter: `https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#upm`
+
+### 2. Install UFetch via Unity Package Manager
+
+1. Open Package Manager (Window → Package Manager)
+2. Click **+** → **Add package from git URL**
+3. Enter: `https://github.com/herbou/UFetch.git?path=/Assets/UFetch`
+4. Click **Add**
+
+Done!
 
 ---
 
@@ -319,7 +332,7 @@ if (!response.IsError) {
 ## 🔧 Requirements
 
 - Unity 2021.3 or later (for async/await support)
-- Newtonsoft.Json for Unity
+- Newtonsoft.Json for Unity (install manually - see Installation section)
 - .NET 4.x or .NET Standard 2.0+
 
 ---
