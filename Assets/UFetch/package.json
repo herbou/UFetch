@@ -1,6 +1,6 @@
 {
   "name": "com.herbou.ufetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "UFetch",
   "description": "A modern, JavaScript-style fetch wrapper for Unity using async/await and UnityWebRequest. Supports GET, POST, PUT, DELETE, typed requests, multipart uploads, and progress tracking.",
   "unity": "2021.3",
